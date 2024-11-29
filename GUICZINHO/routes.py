@@ -12,6 +12,9 @@ app.secret_key = 'napoleao'
 SUAP_TOKEN_URL = 'https://suap.ifrn.edu.br/api/v2/autenticacao/token/'
 SUAP_INFO_URL = 'https://suap.ifrn.edu.br/api/v2/minhas-informacoes/meus-dados/'
 
+print(SUAP_INFO_URL)
+
+
 @app.route('/')
 def login():
     return render_template('login.html')
@@ -161,3 +164,5 @@ def TI():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+
