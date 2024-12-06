@@ -2,6 +2,9 @@
 from flask import Flask, render_template, request, redirect, session, flash, jsonify
 import requests
 import json
+from GUICZINHO import app, banco_dados
+from GUICZINHO.models import Usuario
+
 
 
 
