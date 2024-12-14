@@ -2,9 +2,16 @@
 from flask import Flask, render_template, request, redirect, session, flash, jsonify
 import requests
 import json
+<<<<<<< HEAD
 from GUICZINHO import app, banco_dados
 from GUICZINHO.models import Usuario
 
+=======
+from GUICZINHO import create_app, banco_dados
+from GUICZINHO.models import Usuario
+
+app = create_app()
+>>>>>>> 6077cfe (quinto commit)
 
 
 

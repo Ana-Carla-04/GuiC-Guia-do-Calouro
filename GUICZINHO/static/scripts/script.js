@@ -129,3 +129,34 @@ function movimentarIntens(type){
 // });
 
 
+<<<<<<< HEAD
+=======
+
+
+
+// janela de adicionar setores
+
+let tl_add = document.querySelector('.tela_adicionar')
+let list_setores =document.querySelector('lista_setores')
+
+
+let bnt_add = document.querySelector('#adicionar')
+let sair_form = document.querySelector('.sair_formulario')
+
+bnt_add.onclick = function(){
+    body.style.overflow ='hidden'
+    tl_add.style.display = 'block'
+    console.log(oiiiiiiiiiiiiiiii)
+}
+
+sair_form.onclick = function(){
+    body.style.overflow = 'block'
+    tl_add.style.display = 'none'
+    console.log(olaaaaaaaaaa)
+}
+
+
+
+
+
+>>>>>>> 6077cfe (quinto commit)
